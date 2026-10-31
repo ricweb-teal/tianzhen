@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>联系 · 天真汉堡</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-in">
+    <a class="brand" href="index.html">
+      <span class="mark"></span>
+      <span><b>天真汉堡</b><small>GAME VIDEO CREATOR</small></span>
+    </a>
+    <div class="links" id="links">
+      <a href="index.html">首页</a>
+      <a href="works.html">作品</a>
+      <a href="about.html">关于</a>
+      <a href="contact.html" class="on">联系</a>
+    </div>
+    <button class="menu-btn" id="menuBtn">☰</button>
+  </div>
+</nav>
+
+<main>
+  <section class="page-head wrap" style="padding-bottom:10px">
+    <div class="eyebrow">CONTACT / 03</div>
+    <h1>联系我</h1>
+    <p class="sub">合作、约剪、或者单纯聊聊游戏，都可以。</p>
+  </section>
+
+  <section style="padding-top:30px">
+    <div class="wrap contact-grid">
+      <div class="panel contact-card reveal">
+        <div class="ico">📮</div>
+        <b>EMAIL</b>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+      <div class="panel contact-card reveal">
+        <div class="ico">📺</div>
+        <b>BILIBILI</b>
+        <a href="#" target="_blank">@天真汉堡</a>
+      </div>
+      <div class="panel contact-card reveal">
+        <div class="ico">🎵</div>
+        <b>DOUYIN</b>
+        <a href="#" target="_blank">@天真汉堡</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="panel card reveal" style="padding:34px">
+        <div class="k">MESSAGE</div>
+        <h3 style="margin-bottom:8px">给我留言</h3>
+        <p style="margin-bottom:22px">简单写一句就行，我会尽快回你。</p>
+        <form action="mailto:hello@example.com" method="post" enctype="text/plain"
+              style="display:grid;gap:16px;max-width:620px">
+          <input name="name" placeholder="你的称呼"
+            style="background:#07111f;border:1px solid var(--line2);color:var(--txt);padding:14px 16px;font-size:14px;outline:none">
+          <input name="contact" placeholder="邮箱 / 微信 / QQ"
+            style="background:#07111f;border:1px solid var(--line2);color:var(--txt);padding:14px 16px;font-size:14px;outline:none">
+          <textarea name="message" rows="5" placeholder="想说的话…"
+            style="background:#07111f;border:1px solid var(--line2);color:var(--txt);padding:14px 16px;font-size:14px;outline:none;resize:vertical"></textarea>
+          <button class="btn btn-solid" type="submit" style="border:0;cursor:pointer;justify-self:start">发送 →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-in">
+    <div>© <span id="year"></span> 天真汉堡 · GAME VIDEO CREATOR</div>
+    <div class="mono">CONTACT // 2026</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
